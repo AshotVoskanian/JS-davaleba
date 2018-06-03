@@ -1,0 +1,33 @@
+.task1, .task2{
+	background-color: #05D4F4;
+	width: 100%;
+}
+.task1 input, .task2 input{
+	margin-bottom: 5px;
+	border: 1px solid blue;
+}
+#array{
+	width: 100%;
+}
+input[type=button] {
+	background-color: #04ADC7;
+	border-radius: 30%;
+}
+.player{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 21%;
+	height: 55px;
+	background-color:  #05D4F4;
+	border-radius: 50%;
+	box-shadow: 5px 10px 10px #04ADC7;
+}
+.player img {
+	margin-left: 5px;
+	cursor: pointer;
+	width: 40px;
+}
+.player img:hover{
+	width: 15%;
+}
